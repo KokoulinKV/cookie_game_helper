@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: sans-serif;
+    width: auto;
+}
+
+.topGamers {
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.bottomGamers {
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.gameField {
+    width: 100%;
+    height: 200px;
+    background-color: teal;
+}
+
+.player {
+    position: relative;
+    width: 32%;
+    text-align: center;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.playerUnselected {
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 10px;
+}
+
+.firstGamer {
+    background-color: rgb(100, 100, 255);
+
+}
+
+.secondGamer {
+    background-color: rgb(100, 255, 126);
+}
+
+.thirdGamer {
+    background-color: rgb(232, 255, 100);
+}
+
+.fourthGamer {
+    background-color: rgb(255, 100, 100);
+}
+
+.fifthGamer {
+    background-color: rgb(158, 32, 158);
+}
+
+.sixthGamer {
+    background-color: rgb(59, 97, 51);
+}
+
+.card {
+    padding: 10px;
+    display: inline-block;
+}
+
+.myImg {
+    height: auto;
+    max-width: 70px;
+    width: 100%;
+}
+
+.wrong {
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 10px;
+}
+
+.gameField {
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.myBtn {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px 0px rgb(255, 255, 255);
+    background-color: rgb(60, 107, 151);
+}
+
+.myBtn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(60, 107, 151);
+}
+
+.myBtn:disabled {
+    background-color: rgb(109, 109, 109);
+    color: rgb(192, 192, 192);
+}
+
+.statusLine {
+    position: absolute;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gameOver {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    font-size: 32px;
+    color: rgb(192, 192, 192);
+    box-shadow: 3px 3px 3px 0px rgb(255, 255, 255);
+    background-color: rgb(109, 109, 109);
+}
+
+.gameOver:hover {
+    background-color: rgb(109, 109, 109);
+    color: rgb(192, 192, 192);
+}
+
+.bannedCard {
+    opacity: 0%;
+}
+
+.turnComplete {
+    border: 3px solid transparent;
+}
+
+
+.chosePlayer {
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 10px;
+}
+
+.blockPlayer {
+    border: 6px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.choseHero {
+    opacity: 30%;
+}
+
+.canBeIt {
+    border: 3px solid transparent;
+    border-image: linear-gradient(to bottom right, #ffffff, #000000, #ffffff);
+    border-image-slice: 1;
+}
+
+.thatHero {
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #ff0000, #1aff4b, #6f00ff);
+    border-image-slice: 1;
+}
